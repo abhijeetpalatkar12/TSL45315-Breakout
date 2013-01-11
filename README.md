@@ -1,5 +1,5 @@
 # TSL45315-Breakout
-Breakout with TSL45315 digital ambient light sensors
+Breakout with TSL45315 digital ambient light sensor
 
 <http://www.watterott.com/en/TSL45315-Breakout>
 
