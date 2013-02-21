@@ -1,15 +1,15 @@
 #include <Wire.h>
 
 /*
-  Example sketch for TSL45315-Breakout.
+  Example sketch for TSL45315-Breakout (Digital Ambient Light Sensor).
 
   Board	          I2C/TWI Pins
                   SDA, SCL
   ----------------------------
-  Uno, Ethernet   A4, A5
-  Mega            20, 21
-  Leonardo         2,  3
-  Due             20, 21
+  Uno, Ethernet    A4, A5
+  Mega             20, 21
+  Leonardo          2,  3
+  Due              20, 21
 */
 
 #define I2C_ADDR     (0x29)
@@ -23,6 +23,7 @@
 void setup()
 {
    Serial.begin(9600);
+   while(!Serial); //wait for serial port to connect (needed for Leonardo only)
    Serial.println("Wait for input");
    while(Serial.available() == 0);
    while(Serial.available() != 0){ Serial.read(); }
