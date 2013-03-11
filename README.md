@@ -3,7 +3,7 @@ Breakout with TSL45315 digital ambient light sensor from AMS-TAOS.
 
 <http://www.watterott.com/en/TSL45315-Breakout>
 
-![TSL45315-Breakout](https://github.com/watterott/TSL45315-Breakout/raw/master/img/tsl45315-breakout.jpg)
+![TSL45315-Breakout](https://raw.github.com/watterott/TSL45315-Breakout/master/img/tsl45315-breakout.jpg)
 
 
 ## Features
@@ -13,9 +13,3 @@ Breakout with TSL45315 digital ambient light sensor from AMS-TAOS.
  * 3.3V - 5V tolerant I2C/TWI interface
  * on-board 2.5V voltage regulator
  * on-board level shifter
-
-
-## Directories
- /pcb - Schematics and Layout files
-
- /src - Software Examples
