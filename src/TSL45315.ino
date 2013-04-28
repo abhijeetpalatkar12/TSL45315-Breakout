@@ -1,5 +1,3 @@
-#include <Wire.h>
-
 /*
   Example sketch for TSL45315-Breakout (Digital Ambient Light Sensor).
 
@@ -11,6 +9,8 @@
   Leonardo          2,  3
   Due              20, 21
 */
+
+#include <Wire.h>
 
 #define I2C_ADDR     (0x29)
 
