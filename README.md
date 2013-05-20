@@ -7,9 +7,9 @@ http://www.watterott.com/en/TSL45315-Breakout
 
 
 ## Features
-* direct lux output with wide dynamic range (3 lux to 220k lux)
-* rejects 50Hz/60Hz lighting ripple
-* approximates human eye response in diverse lighting conditions
+* Direct lux output with wide dynamic range (3 lux to 220k lux)
+* Rejects 50Hz/60Hz lighting ripple
+* Approximates human eye response in diverse lighting conditions
 * 3.3V - 5V tolerant I2C/TWI interface
-* on-board 2.5V voltage regulator
-* on-board level shifter
+* On-board 2.5V voltage regulator
+* On-board level shifter
