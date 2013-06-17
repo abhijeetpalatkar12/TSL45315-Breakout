@@ -13,3 +13,7 @@ http://www.watterott.com/en/TSL45315-Breakout
 * 3.3V - 5V tolerant I2C/TWI interface
 * On-board 2.5V voltage regulator
 * On-board level shifter
+
+
+## Software
+* [Arduino Examples](https://github.com/watterott/TSL45315-Breakout/tree/master/src)
