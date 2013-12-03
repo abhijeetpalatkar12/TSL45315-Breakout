@@ -71,6 +71,8 @@ void loop()
    while(Wire.available()){ Wire.read(); } //received more bytes?
    lux  = (h<<8) | (l<<0);
    lux *= 1; //M=1
+   // lux *= 2; //M=2
+   // lux *= 4; //M=4
    Serial.print("Lux: ");
    Serial.println(lux, DEC);
 
