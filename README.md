@@ -1,5 +1,5 @@
 # TSL45315-Breakout
-Breakout with TSL45315 digital ambient light sensor from AMS-TAOS.
+Breakout with [TSL45315](http://www.ams.com/eng/Products/Light-Sensors/Ambient-Light-Sensor-ALS/TSL45315) digital ambient light sensor from AMS-TAOS.
 
 Shop: [TSL45315-Breakout](http://www.watterott.com/en/TSL45315-Breakout)
 
@@ -16,4 +16,4 @@ Shop: [TSL45315-Breakout](http://www.watterott.com/en/TSL45315-Breakout)
 
 
 ## Software
-* [Arduino Examples](https://github.com/watterott/TSL45315-Breakout/tree/master/src)
+* [Arduino Example](https://github.com/watterott/TSL45315-Breakout/tree/master/src)

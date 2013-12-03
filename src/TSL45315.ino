@@ -52,22 +52,25 @@ void setup()
    Wire.beginTransmission(I2C_ADDR);
    Wire.write(0x80|REG_CONFIG);
    Wire.write(0x00); //M=1 T=400ms
+   // Wire.write(0x01); //M=2 T=200ms
+   // Wire.write(0x02); //M=4 T=100ms
    Wire.endTransmission();
 }
 
 void loop()
 {
-   unsigned char a, b;
-   unsigned int lux;
+   uint16_t l, h;
+   uint32_t lux;
 
    Wire.beginTransmission(I2C_ADDR);
    Wire.write(0x80|REG_DATALOW);
    Wire.endTransmission();
    Wire.requestFrom(I2C_ADDR, 2); //request 2 bytes
-   a = Wire.read();
-   b = Wire.read();
+   l = Wire.read();
+   h = Wire.read();
    while(Wire.available()){ Wire.read(); } //received more bytes?
-   lux = 1 * ( (b<<8) | (a<<0) ); //multiplier 1
+   lux  = (h<<8) | (l<<0);
+   lux *= 1; //M=1
    Serial.print("Lux: ");
    Serial.println(lux, DEC);
 
