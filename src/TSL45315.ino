@@ -1,7 +1,7 @@
 /*
   Example sketch for TSL45315-Breakout (Digital Ambient Light Sensor).
 
-  Board	          I2C/TWI Pins
+  Board           I2C/TWI Pins
                   SDA, SCL
   ----------------------------
   Uno, Ethernet    A4, A5
