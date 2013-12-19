@@ -24,9 +24,6 @@ void setup()
 {
    Serial.begin(9600);
    while(!Serial); //wait for serial port to connect (needed for Leonardo only)
-   Serial.println("Wait for input");
-   while(Serial.available() == 0);
-   while(Serial.available() != 0){ Serial.read(); }
 
    Wire.begin();
 
