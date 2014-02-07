@@ -15,5 +15,9 @@ Shop: [TSL45315-Breakout](http://www.watterott.com/en/TSL45315-Breakout)
 * On-board level shifter
 
 
+## Hardware
+* [Schematics + Layout](https://github.com/watterott/TSL45315-Breakout/tree/master/pcb)
+
+
 ## Software
 * [Arduino Example](https://github.com/watterott/TSL45315-Breakout/tree/master/src)
