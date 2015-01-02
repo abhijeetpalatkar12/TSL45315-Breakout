@@ -3,7 +3,7 @@ Breakout with [TSL45315](http://www.ams.com/eng/Products/Light-Sensors/Ambient-L
 
 Shop: [TSL45315-Breakout](http://www.watterott.com/en/TSL45315-Breakout)
 
-![TSL45315-Breakout](https://raw.github.com/watterott/TSL45315-Breakout/master/img/tsl45315-breakout.jpg)
+[![TSL45315-Breakout](https://raw.github.com/watterott/TSL45315-Breakout/master/img/tsl45315-breakout.jpg)](http://www.watterott.com/en/TSL45315-Breakout)
 
 
 ## Features
