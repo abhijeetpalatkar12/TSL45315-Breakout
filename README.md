@@ -1,9 +1,11 @@
 # TSL45315-Breakout
 Breakout with [TSL45315](http://www.ams.com/eng/Products/Light-Sensors/Ambient-Light-Sensor-ALS/TSL45315) digital ambient light sensor from AMS-TAOS.
 
-Shop: [TSL45315-Breakout](http://www.watterott.com/en/TSL45315-Breakout)
-
 [![TSL45315-Breakout](https://raw.github.com/watterott/TSL45315-Breakout/master/pcb/TSL45315-Breakout_v10.jpg)](http://www.watterott.com/en/TSL45315-Breakout)
+
+
+## Shop
+* [TSL45315-Breakout](http://www.watterott.com/en/TSL45315-Breakout)
 
 
 ## Features
@@ -15,9 +17,6 @@ Shop: [TSL45315-Breakout](http://www.watterott.com/en/TSL45315-Breakout)
 * On-board level shifter
 
 
-## Hardware
+## Hardware and Software
 * [Schematics + Layout](https://github.com/watterott/TSL45315-Breakout/tree/master/pcb)
-
-
-## Software
 * [Arduino Example](https://github.com/watterott/TSL45315-Breakout/tree/master/src)
