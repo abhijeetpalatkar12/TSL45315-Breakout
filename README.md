@@ -19,4 +19,14 @@ Breakout with [TSL45315](http://www.ams.com/eng/Products/Light-Sensors/Ambient-L
 
 ## Hardware and Software
 * [Schematics + Layout](https://github.com/watterott/TSL45315-Breakout/tree/master/pcb)
+
 * [Arduino Example](https://github.com/watterott/TSL45315-Breakout/tree/master/src)
+
+* [Arduino Lib](https://github.com/adidax/Makerblog_TSL45315)
+
+* [RaspberryPi Lib/WebIOPi](http://code.google.com/p/webiopi/wiki/TSL4531)
+    ```
+    from webiopi.devices.sensor.tslXXXX import TSL45315
+    tsl = TSL45315(0x29)
+    lux = tsl.getLux()
+    ```
