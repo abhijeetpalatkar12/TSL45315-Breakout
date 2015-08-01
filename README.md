@@ -1,5 +1,5 @@
 # TSL45315-Breakout
-Breakout with [TSL45315](http://www.ams.com/eng/Products/Light-Sensors/Ambient-Light-Sensor-ALS/TSL45315) digital ambient light sensor from AMS.
+Breakout with [TSL45315](http://www.ams.com/eng/Products/Sensor-Driven-Lighting/SDL-Ambient-Light-Sensors/TSL45315) digital ambient light sensor from AMS.
 
 [![TSL45315-Breakout](https://raw.github.com/watterott/TSL45315-Breakout/master/pcb/TSL45315-Breakout_v10.jpg)](http://www.watterott.com/en/TSL45315-Breakout)
 
