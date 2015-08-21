@@ -1,7 +1,7 @@
 # TSL45315-Breakout
 Breakout with [TSL45315](http://www.ams.com/eng/Products/Sensor-Driven-Lighting/SDL-Ambient-Light-Sensors/TSL45315) digital ambient light sensor from AMS.
 
-[![TSL45315-Breakout](https://raw.github.com/watterott/TSL45315-Breakout/master/pcb/TSL45315-Breakout_v10.jpg)](http://www.watterott.com/en/TSL45315-Breakout)
+[![TSL45315-Breakout](https://github.com/watterott/TSL45315-Breakout/raw/master/hardware/TSL45315-Breakout_v10.jpg)](http://www.watterott.com/en/TSL45315-Breakout)
 
 
 ## Shop
@@ -17,8 +17,8 @@ Breakout with [TSL45315](http://www.ams.com/eng/Products/Sensor-Driven-Lighting/
 
 
 ## Hardware and Software
-* [Schematics + Layout](https://github.com/watterott/TSL45315-Breakout/tree/master/pcb)
-* [Arduino Example](https://github.com/watterott/TSL45315-Breakout/tree/master/src)
+* [Schematics + Layout](https://github.com/watterott/TSL45315-Breakout/tree/master/hardware)
+* [Arduino Example](https://github.com/watterott/TSL45315-Breakout/tree/master/software)
 
 * Arduino Library and Examples: [Makerblog_TSL45315](https://github.com/adidax/Makerblog_TSL45315)
 
